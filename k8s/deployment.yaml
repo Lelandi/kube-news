@@ -52,7 +52,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: lelandi/kube-news:v1
+          image: lelandi/kube-news:{{TAG}}
           ports:
           - containerPort: 8080
           env:
